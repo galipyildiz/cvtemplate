@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="preloader" id="loadefekt"></div>
+
+    <nav class="container" id="navcik" style="display: none;">
+        <ul class="navim sag">
+            <li style="float: left;">
+                <a href="" class="linkim">
+                    <span class="gri baslik">Galip</span>
+                    <span class="yesil baslik">Yıldız</span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="contact.html" class="linkler active">
+                    Contact
+                    <span class="cizgiactive"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="blog.html" class="linkler">
+                    Blog
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="portfolio.html" class="linkler">
+                    Portfolio
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="services.html" class="linkler">
+                    Services
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="resume.html" class="linkler">
+                    Resume
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="index.html" class="linkler">
+                    Home
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="text-decoration: none;" onclick="myFunction()">
+                    <i class="fas fa-bars" style="color: white;"></i>
+
+                </a>
+
+            </li>
+        </ul>
+
+        <div style="clear: both;"></div>
+    </nav>
+
+    <div class="container" style="margin-top: 5px; display: block;">
+        <ul class="responsiveBar" id="rBar">
+            <li>
+                <a href="">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Resume
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Services
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Portfolio
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container icerigim2" id="icerik" style="display: none;">
+        <div class="row digersatir1">
+            <h1>Contact</h1>
+        </div>
+        <div class="row digersatir2">
+            <div class="col-lg-6 mt-5">
+                <h3>Get in <span class="yesil">Touch</span></h3>
+                <iframe class="mt-3"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.7174278935126!2d32.819482015593096!3d39.970069990606376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34d1010cc01f5%3A0xb63fabf5c7e9abf3!2sAntares%20AVM!5e0!3m2!1str!2str!4v1615054978197!5m2!1str!2str"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+                <div class="mt-3">
+                    <i class="fas fa-map-marker-alt yesil"></i>
+                    <p class="ml-3" style="display: inline-block;">Ankara,Turkey</p>
+                </div>
+                <div class="mt-3">
+                    <i class="fas fa-envelope yesil"></i>
+                    <p class="ml-3" style="display: inline-block;">galipyildiz9606@outlook.com</p>
+                </div>
+                <div class="mt-3">
+                    <i class="fas fa-phone-alt yesil"></i>
+                    <p class="ml-3" style="display: inline-block;">+90 123 123 21 21</p>
+                </div>
+                <div class="mt-3">
+                    <i class="fas fa-check-circle yesil"></i>
+                    <p class="ml-3" style="display: inline-block;">Freelance Available</p>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <h3>Contact <span class="yesil">Form</span></h3>
+                <form class="mt-4">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+                      </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message for Me"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="g-recaptcha"data-sitekey="6Lf2jnQaAAAAADMH9lLb5eI912LAlwWvs5lHH2Ep">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-success">Send Message</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footeryazi">
+            © 2021 All rights reserved. Material template by Galip Yıldız
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script src="main.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=tr'></script>
+</body>
+
+</html>
